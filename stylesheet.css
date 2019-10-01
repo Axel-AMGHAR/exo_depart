@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+textarea {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.blue_background {
+    background-color: Navy;
+}
+
+h3, .blue_background,body {
+    margin: none;
+}
+
+h3 {
+    color: white;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#background_image_cat {
+    background-image: url(img/background.jpg);
+    margin: none;
+}

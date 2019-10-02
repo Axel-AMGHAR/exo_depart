@@ -1,28 +1,136 @@
+
+@font-face {
+	font-family: "Manuscrite";
+	src: url('Luna.ttf');
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Manuscrite";
+    font-size: 70%;
+}
+
 h1 {
     text-align: center;
+}
+
+h1, h3 {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    margin: 0% 5% 10% 5%;
+    width: 100%;
+    color: #0A0A2A;
+    font-size: 150%;
+}
+
+h3, .blue_background,body, h1 {
+    margin: 0;
+}
+
+h3 {
+    margin-left: 15% ;
+    padding: 0.5% 0% 0.5% 0%;
+    font-style: italic;
 }
 
 textarea {
     border-radius: 5px;
     overflow: hidden;
-    height: 100px;
+    height: 140px;
+    width: 97%
 }
 
 .blue_background {
-    background-color: Navy;
-}
-
-h3, .blue_background,body {
-    margin: none;
-}
-
-h3 {
-    color: white;
-    margin-left: 20px;
-    font-style: italic;
+    background-color: #0A0A2A;
 }
 
 #background_image_cat {
     background-image: url(img/background.jpg);
-    margin: none;
+    padding: 3% 0% 3% 0%;
 }
+
+#formulaire {
+    float: left;
+}
+
+#form {
+    width: 110% ;
+    background-color: whitesmoke;
+    padding: 5%;
+    border-width: 1px;
+    border-style:solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.margin {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#button_send {
+    width: 100%;
+    background-color: green;
+    padding: 2.5%;
+    border-radius: 5px;
+    border-color: lightgray;
+    box-shadow: none;
+    color: white;
+    border: 1px solid lightgray;
+}
+
+#chat {
+    width: 70%;
+    padding-left: 100px;
+}
+
+#form_img {
+    margin: 3% 15% 7% 15%;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    margin-top: -7%;
+    margin-left: 15%;
+    font-size: 200%;
+}
+
+/******************* footer ***********************/
+
+
+#footer {
+    background-color: gainsboro;
+    padding: 2% 20% 3% 20%; 
+}
+
+#title_footer {
+    text-align: left;
+    color: #0A0A2A;
+    padding-bottom: 2%;
+}
+
+#tete_chat {
+    float: right;
+    width: 22%;
+    background-color: #0A0A2A;
+}
+
+h5 {
+    margin:0;
+    text-align-last: right;
+    background-color: #0A0A2A;
+    color: white;
+    padding: 0.5%;
+}
+

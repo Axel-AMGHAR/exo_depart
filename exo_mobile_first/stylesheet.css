@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+@font-face {
+	font-family: "Manuscrite";
+	src: url('Luna.ttf');
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: 120%;
+    box-sizing:  border-box;
+}
+
+#principal_title {
+    text-align: center;
+    padding: 10%;
+    color: white;
+}
+
+h3 {
+    color: white;
+    padding: 2%;
+}
+
+h4 {
+    text-align: center;
+    margin: 0% 5% 10% 5%;
+    width: 100%;
+    color: #0A0A2A;
+    font-size: 150%;
+}
+
+.blue_background {
+    background-color: #0A0A2A;
+}
+
+#background_image_cat {
+    background-image: url(img/background.jpg);
+    padding: 3% 0% 3% 0%;
+}
+
+#form {
+    height: 20em;
+    margin: 2%;
+    background-color: aquamarine;
+}
+
+#image_cat{
+    height: 15em;
+    margin: 2%;
+    background-color: chocolate;
+}
+
+
+#footer {
+    background-color: gainsboro;
+    padding: 2% 2%; 
+}
+
+#title_footer {
+    font-size: 175%;
+    color: #0A0A2A;
+    padding-bottom: 2%;
+}
+
+#tete_chat {
+    width: 100%;
+    background-color: #0A0A2A;
+}
+
+h5 {
+    margin:0;
+    text-align-last: right;
+    background-color: #0A0A2A;
+    color: white;
+    padding: 2%;
+}
+
+.no_font{
+    font-family: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+    
+    #form {
+        display: inline-block;
+        width: 300px;
+    }
+    
+    #image_cat {
+        display: inline-block;
+        width: 400px;
+        height: 20em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+
+    }
+}

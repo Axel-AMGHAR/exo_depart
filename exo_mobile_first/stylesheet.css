@@ -13,6 +13,18 @@
 	src: url('Luna.ttf');
 }
 
+.mts{
+    margin-top: 1rem;
+}
+
+.mbs{
+    margin-top: 1rem;
+}
+
+label {
+    display: bloc; 
+}
+
 body {
     background-color: whitesmoke;
     font-size: 120%;
@@ -21,21 +33,13 @@ body {
 
 #principal_title {
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     color: white;
 }
 
 h3 {
     color: white;
     padding: 2%;
-}
-
-h4 {
-    text-align: center;
-    margin: 0% 5% 10% 5%;
-    width: 100%;
-    color: #0A0A2A;
-    font-size: 150%;
 }
 
 .blue_background {
@@ -48,17 +52,69 @@ h4 {
 }
 
 #form {
-    height: 20em;
-    margin: 2%;
-    background-color: aquamarine;
+    margin: 5% 2%;
+}
+
+h4 {
+    text-align: center;
+    margin: 2% 0%;
+    color: #0A0A2A;
+    font-size: 150%;
+}
+
+#real_form {
+    background-color: whitesmoke;
+    padding: 5%;
+    border-width: 1px;
+    border-style:solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.margin {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#button_send {
+    width: 100%;
+    background-color: green;
+    padding: 2.5%;
+    border-radius: 5px;
+    border-color: lightgray;
+    box-shadow: none;
+    color: white;
+    border: 1px solid lightgray;
+}
+
+textarea {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 140px;
+    width: 97%
+}
+
+#chat {
+    width: 100%;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    margin-top: -15%;
+    font-size: 200%;
 }
 
 #image_cat{
-    height: 15em;
-    margin: 2%;
-    background-color: chocolate;
+    margin: 5% 2% 10% 2%;
 }
-
 
 #footer {
     background-color: gainsboro;
@@ -71,15 +127,18 @@ h4 {
     padding-bottom: 2%;
 }
 
+#div_cat {
+    text-align: center;
+}
+
 #tete_chat {
-    width: 100%;
+    width: 70%;
     background-color: #0A0A2A;
 }
 
 h5 {
     margin:0;
     text-align-last: right;
-    background-color: #0A0A2A;
     color: white;
     padding: 2%;
 }
@@ -96,19 +155,70 @@ h5 {
     
     #form {
         display: inline-block;
-        width: 300px;
+        width: 35%;
+        margin: 2% 0%;    
     }
     
     #image_cat {
         display: inline-block;
-        width: 400px;
-        height: 20em;
+        width: 64%;
+        margin: 0;
+        float: right;
+        margin: 10% 0%;
+    }
+    
+    .display_inline_block {
+        display: inline-block;
+    }
+    
+    #div_cat {
+        width: 250px;
+        height: 250px;
+    }
+    
+    #tete_chat {
+        width: 100%;
+    }
+    
+    #text_footer {
+        width: 65%;
+    }
+    
+    figcaption {
+        margin-top: -10%;
     }
 }
+
 
 @media screen and (min-width: 1200px) {
     .container {
         width: 1200px;
-
+    }
+    
+    h3, h5 {
+        padding: 1%;
+    }
+    
+    #principal_title {
+        padding: 2%;
+    }
+    
+    #text_footer {
+        width: 75%;
+    }
+    
+    #div_cat {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #form {
+        display: inline-block;
+        width: 30%;
+        margin: 5% 0%;    
+    }
+    
+    #image_cat {
+        margin : 5% 0%;
     }
 }

@@ -31,8 +31,27 @@
         <div class="grey_background">
             <div class="container block">
                 <div id="form">
+                    <form id="real_form">
+                        <h4>Les chats a adopter</h4>
+                        <label>Choix du chat :</label>
+                        <select class="select margin mts" name="race_chat" >
+                            <option disabled selected >--Sélectionnez--</option>
+                            <option>Persan</option>
+                            <option>Bleu russe</option>
+                            <option>Bengal</option>
+                            <option>Siamois</option>
+                        </select>
+
+                        <label>Raison d'adoption :</label>
+                        <textarea class="margin mts" name="raison" placeholder="Saisissez ici les raisons pour lequelles vous souhaitez adopter ce chat ..."></textarea><br />
+                        <input id="button_send" type="button" value="Envoyer"/>
+                    </form>
                 </div>
                 <div id="image_cat">
+                    <figure>
+                        <img id="chat" src="img/chat.jpg">
+                        <figcaption>Suchi</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -42,21 +61,25 @@
     <footer>
         <div id="footer" >
             <div class="container">
-                <h1 id="title_footer">Nos chats a adopter ...</h1>
-                <div>
+                <div id="text_footer" class="display_inline_block">
+                    <h1 id="title_footer">Nos chats a adopter ...</h1>
                     <div>
+                        <div>
 
-                        <div class="no_font">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</div><br />
+                            <div class="no_font">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</div><br />
 
-                        <div class="no_font">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. </div>
+                            <div class="no_font">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. </div>
 
+                        </div>
                     </div>
                 </div>
-                <img id="tete_chat" src="img/tete-chat.png">
+                <div id="div_cat" class="display_inline_block">
+                    <img   id="tete_chat" src="img/tete-chat.png">
+                </div>
              </div>
         </div>
 
-        <div>
+        <div class="blue_background">
             <div class="container" >
                 <h5> © OhMyCats</h5>
             </div>
